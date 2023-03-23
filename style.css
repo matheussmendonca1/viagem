@@ -1,0 +1,100 @@
+/* ===== Viagem ===== */
+
+body.california {
+    background: url(viagem/golden-gate.jpeg) fixed;
+}
+
+body.california main#principal {
+    background-color: #ffffff5f;
+    backdrop-filter: blur(3px);
+
+    max-width: 800px;
+    min-height: 600px;
+
+    margin: auto;
+    border-radius: 16px;
+
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #00000038;
+}
+
+body.california h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    padding: 0px 15px;
+    color: #f5380e;
+    text-shadow: 1px 1px 1px #00000079;
+}
+
+main#principal section {
+    padding: 0px 15px;
+}
+
+main#principal section img {
+    display: block;
+    width: 450px;
+    height: 290px;
+    margin: auto;
+}
+
+main#principal section img#burger {
+    display: block;
+    width: 450px;
+    height: 460px;
+    margin: auto;
+}
+
+main#principal section > article.artigo {
+    text-indent: 15px;
+
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 16px;
+
+    box-shadow: 0px 0px 10px #e94e1044;
+}
+
+main#principal section > article.artigo h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4em;
+    color: #2d2d2d;
+}
+
+main#principal section > article.artigo p {
+    text-shadow: 1px 1px 1px #00000049;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+main#principal > div#voltar {
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+
+    height: 80px;
+    width: 100px;
+
+    box-shadow: 0px 0px 10px #00000044;
+    border-radius: 16px;
+}
+
+main#principal > div#voltar a {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    width: 90px;
+}
+
+main#principal > div#voltar a > span {
+    transition: .3s;
+}
+
+main#principal > div#voltar a:hover {
+    text-decoration: underline;
+
+}
+
+main#principal > div#voltar a:hover > span {
+    transform: translate(-10px);
+}
