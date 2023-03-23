@@ -1,7 +1,7 @@
 /* ===== Viagem ===== */
 
 body.california {
-    background: url(viagem/golden-gate.jpeg) fixed;
+    background: url(golden-gate.jpeg) fixed;
 }
 
 body.california main#principal {
